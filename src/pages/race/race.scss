@@ -1,0 +1,45 @@
+$pad: 10px;
+
+button{
+  cursor: pointer;
+}
+
+.tittle {
+  background-color: rgb(55, 144, 63);
+  
+  th {
+    padding: $pad;
+    text-align: center;
+  }
+}
+
+table {
+  border: none;
+  border-spacing: 0;
+}
+
+.winners-container{
+  margin-bottom: 40px;
+
+  td {
+    padding: $pad;
+    text-align: center;
+    width: 80px;
+  }
+}
+
+.table-button {
+  background-color: rgb(55, 144, 63);
+  border: none;
+  color: rgb(236, 226, 226);
+  font-weight: bold;
+  text-transform: none;
+
+  &:hover {
+    background-color: rgb(19, 94, 26);
+  }
+}
+
+.hover:hover {
+  background-color: rgb(19, 94, 26);
+}
